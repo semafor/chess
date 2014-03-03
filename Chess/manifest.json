@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "description of Chess",
+    "framework": "ubuntu-sdk-13.10",
+    "hooks": {
+        "Chess": {
+            "apparmor": "Chess.json",
+            "desktop": "Chess.desktop"
+        }
+    },
+    "maintainer": "jonas-drange <jonas.drange@canonical.com>",
+    "name": "com.ubuntu.developer.jonas-drange.chess",
+    "title": "Chess",
+    "version": "0.1"
+}
